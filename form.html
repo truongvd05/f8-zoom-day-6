@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/reset.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/form.css" />
+  </head>
+  <body>
+    <div class="box">
+      <div class="container-img">
+        <img class="img" src="https://www.graduhat.com/static/media/login.ff5fd944.png" alt="">
+      </div>
+        <div class="container form-group" spellcheck="false">
+          <h1>Register</h1>
+          <label for="name" class="label-name form-label">
+            <span class="warn">Name</span>
+            <input class="input-css" 
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Name"
+              autocomplete="off"
+            />
+          </label>
+          <label for="email" class="label-email form-label">
+            <span class="warn">Email</span>
+            <input class="input-css" 
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+              autocomplete="off"
+            />
+          </label>
+          <label for="phone-number" class="label-phone form-label">
+            <span class="warn">Phone Number</span>
+            <input 
+              class="input-css"
+              type="number"
+              name="phone"
+              id="phone-number"
+              placeholder="Phone Number"
+              autocomplete="off"
+            />
+          </label>
+          <label for="password" class="label-pass form-label">
+            <span class="warn">password</span>
+            <input class="input-css" type="password" name="password" id="password" autocomplete="off" minlength="6" />
+          </label>
+          <label for="Confirm" class="label-comfirm form-label" form-label>
+            <span class="warn">Confirm Password</span>
+            <input class="input-css" type="password" name="password" id="Confirm" autocomplete="off" minlength="6" />
+          </label>
+          <div >
+            <a class="warn">gender</a> <br>
+              <label for="Male" class="gender labal-gender male">
+                <input class="radio" type="radio" name="gender" id="Male" required/>
+                <span >Male</span>
+              </label>
+              <label for="female" class="gender labal-gender">
+                <input class="radio" type="radio" name="gender" id="female" required/>
+                <span >Female</span>
+              </label>
+                <label for="other" class="gender labal-gender">
+                  <input class="radio" type="radio" name="gender" id="other" required/>
+                  <span >Other</span>
+                </label>
+          </div>
+          </label>
+          <label for="date" class="labelp-date form-label">
+            <span class="warn">Date of Birth</span>
+            <input type="date" name="date" id="date" class="input-css"/>
+          </label>
+          <label for="address" class="label-address form-label">
+            <span class="warn">Address</span>
+            <input class="input-css" type="text" name="address" id="address" autocomplete="off"/>
+          </label>
+          <label class="label-notice form-label">
+            <a class="warn">Communication Preferences Chọn loại email bạn muốn nhận:</a>
+          </label>
+          <label class="form-label label-checkbox">
+            <input type="checkbox" name="" id="" />
+              <span>Subscribe to Newsletter (Nhận bản tin định kỳ)</span>
+          </label>
+          <label class="form-label label-checkbox">
+            <input type="checkbox" name="" id="" />
+              <span>Receive Promotional Emails (Nhận thông tin khuyến mãi)</span>
+          </label>
+          <label class="form-label label-checkbox">
+            <input type="checkbox" name="" id="" />
+              <span>Get Product Updates (Nhận cập nhật sản phẩm mới)</span>
+          </label>
+          <label class="label-file form-label">
+            <a>
+              <input hidden type="file" name="" id="" accept="image/*" />
+              <img class="label-img"
+                style="height: 100px; width: 100px; display: flex"
+                src="https://i.pinimg.com/736x/21/91/6e/21916e491ef0d796398f5724c313bbe7.jpg"
+                alt=""
+              />
+            </a>
+          </label>
+          <a class="span-btn">
+            <button class="btn">Submit</button>
+          </a>
+        </div>
+    </div>
+  </body>
+</html>

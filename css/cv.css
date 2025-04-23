@@ -1,0 +1,85 @@
+body {
+    background-color: #ccc;
+}
+.box {
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    box-shadow: coral;
+    margin-top: 24px;
+    display: flex;
+    gap: 20px;
+}
+.container-user {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: antiquewhite;
+}
+.container-cv {
+    max-width: 614px;
+    padding-right: 20px;
+}
+.container-user-img {
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-img {
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+}
+.heading {
+    margin-top: 10px;
+    text-align: center;
+}
+.content-job-title{
+    font-size: 1rem;
+}
+.content-work {
+    border-bottom: 2px solid black;
+}
+.content-job-date {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.information-phone{
+    display: flex;
+    flex-direction: row;
+}
+.icon {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 10px;
+}
+.up {
+    text-transform: uppercase;
+}
+.info {
+    margin-left: auto;
+    margin-right: auto;
+}
+.information{
+    margin-left: 20px;
+    line-height: 0.5rem;
+}
+ul {
+    list-style:disc;
+}
+.content-title {
+    font-size: 2rem;
+    color: transparent;
+    background-image: linear-gradient(217deg, rgba(255, 0, 0, 0.8), rgba(255, 0, 0, 0) 70.71%),
+    linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+    background-clip: text;
+    -webkit-background-clip: text;
+
+}

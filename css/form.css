@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: burlywood;
+}
+.box {
+    display: flex;
+    justify-content: center;
+}
+.container-img {
+
+}
+.img {
+    width: 500px;
+    height: 100%;
+}
+h1 {
+    text-align: center;
+    color: blue;
+}
+.form-group {
+    padding-bottom: 5%;
+}
+.input-css {
+    outline: none;
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: 1px 1px;
+    height: 30px;
+}
+.container {
+    padding-top: 30px; 
+    padding-bottom: 50px;
+    background-color: aliceblue;
+    width: 500px;
+}
+.form-label, .label-file, .label-notice, .gender {
+    display: grid;
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+a {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 250px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.male {
+    margin-top: -20px;
+}
+.auto {
+    text-align: center;
+}
+.gender {
+    display: block;
+    padding-bottom: 5px;
+}
+span {
+    padding-bottom: 5px;
+}
+.radio {
+    margin-right: 5px
+}
+.label-name {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.label-address {
+    margin-bottom: 10px;
+}
+.label-img {
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.label-checkbox {
+    display: block;
+}
+input:focus {
+    border-color: #0051ff;
+    border-width: 2px;
+}
+label:focus-within {
+    font-weight: bold;
+}
+input:invalid{
+    background-color: aliceblue;
+    border: 2px solid red;
+}
+div:invalid {
+    border: 2px solid red;
+    background-color: beige;
+}
+.btn {
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height:  50px;
+    border-radius: 30px;
+    box-shadow: 8px 8px 15px #bebebe;
+    cursor: pointer;
+    border: none;
+}
+.btn:active {
+    box-shadow: inset 8px 5px 15px #bebebe,
+    inset -8px -8px 15px #ffffff
+}
+.warn::after {
+    content: "*";
+    color: red;
+}
+.form-group:focus-within {
+    outline: 2px solid red;
+}

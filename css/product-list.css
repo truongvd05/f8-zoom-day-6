@@ -1,0 +1,149 @@
+* {
+    --text-color: white;
+    --main-color: #ff0000;
+}
+.text-color {
+    color: var(--text-color);
+}
+.text {
+    color: black;
+}
+.heading {
+    background-image: linear-gradient(0deg, rgb(254, 100, 51), rgb(245, 62, 45));
+    min-height: 100px;
+}
+.heading-img {
+    width: 50px;
+    height: 40px;
+}
+.heading-center {
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    gap: 30px;
+}
+.heading-logo {
+    display: flex;
+    gap: 30px;
+    margin-left: 200px;
+}
+.heading-title {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.heading-box {
+    display: flex;
+    justify-content: space-around;
+}
+.heading-user, .heading-login, i {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+p {
+    color: var(--text-color);
+}
+.text-css {
+    padding-left: 3px;
+    border-left: 1px solid white;
+    font-size: 0.9rem;
+}
+.heading-suport, .heading-right, .heading-logo-img {
+    display: flex;
+    gap: 5px;
+}
+.heading-input-css {
+    width:700px;
+    border-radius: 5px;
+    height: 30px;
+}
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 5px;
+}
+a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+.content {
+    display: flex;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content-list {
+    flex-grow: 1;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.content-list-title-goods {
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+}
+.content-product {
+    flex-grow: 4;
+    display: flex;
+    gap: 20px;
+    width: 30%;
+    flex-wrap: wrap;
+}
+.box {
+    max-width: 250px;
+    margin-top: 40px;
+    background-color: aliceblue;
+    border-radius: 1px;
+}
+.box-img {
+    width: 250px;
+    height: 250px;
+}
+.text {
+    white-space: nowrap; 
+    width: 250px; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+.content-price {
+    display: flex;
+}
+.text-price {
+    margin-left: 8px;
+    color: var(--main-color);
+    margin-right: 5px;
+    font-size: 0.7rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.text-main-color {
+    color: var(--main-color);
+}
+.box:hover {
+    border: 1px solid var(--main-color);
+}
+.btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    width: 50%;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #fb5831;
+    color: #fff;
+    box-shadow: 8px 8px 15px #bebebe;
+    cursor: pointer;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-btn{
+    color: #fff;
+}
+.btn:hover {
+    box-shadow: inset 8px 5px 15px #bebebe,
+    inset -8px -8px 15px #f7472f
+}
